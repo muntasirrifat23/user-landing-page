@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <>
       <div
-        className="relative bg-cover bg-center h-[900px]"
+        className="relative bg-cover bg-center lg:h-[900px]"
         style={{ backgroundImage: `url('../../../public/Background.jpeg')` }}
       >
         <div className="absolute inset-0 bg-slate-500 bg-opacity-50"></div>
@@ -38,7 +38,7 @@ const Header = () => {
           </div>
 
           {/* Right Form Section */}
-          <div className="flex flex-col backdrop-blur items-center justify-between bg-white bg-opacity-40 rounded-lg p-8 shadow-lg max-w-4xl w-full lg:w-1/2">
+          <div className="flex flex-col backdrop-blur items-center justify-between bg-white bg-opacity-40 rounded-lg p-8 shadow-lg lg:max-w-4xl max-w-xl w-full lg:w-1/2">
             <h2 className="text-2xl text-white font-bold mb-4">
               Sign up with email
             </h2>

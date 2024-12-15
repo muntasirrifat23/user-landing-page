@@ -1,6 +1,6 @@
 const SingleCard = () => {
   return (
-    <div className="bg-white text-black items-center justify-center relative mt-[-50px] mx-40  grid grid-cols-3 p-4 rounded-xl gap-16">
+    <div className="bg-white text-black items-center justify-center relative mt-[-20px] lg:mt-[-50px] mx-32 lg:mx-40 grid lg:grid-cols-3 p-4 rounded-xl gap-16">
       {/* Cards 1 */}
       <div>
         <h2 className="text-3xl font-semibold">150+ Countries</h2>
