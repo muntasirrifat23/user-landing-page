@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <>
       <div
-        className="relative bg-cover bg-center lg:h-[900px]"
+        className="relative bg-cover bg-center h-[900px] "
         style={{ backgroundImage: `url('../../../public/Background.jpeg')` }}
       >
         <div className="absolute inset-0 bg-slate-500 bg-opacity-50"></div>
@@ -23,14 +23,14 @@ const Header = () => {
         <div className="relative flex flex-col lg:flex-row items-center justify-between gap-10 p-8 pt-16 max-w-7xl mx-auto">
           {/* Left Text Section */}
           <div className="text-left lg:w-1/2">
-            <h1 className="text-6xl font-bold text-white leading-tight">
+            <h1 className="lg:text-6xl text-4xl font-bold text-white leading-tight">
               The Premier <br />
               Co-living Travel <br />
               Network for Women
             </h1>
             <div className="flex items-center mt-4 font-semibold">
               <hr className="border-t-2 border-white w-8 mr-4 -mt-6" />
-              <p className="text-lg text-white">
+              <p className="lg:text-lg text-white">
                 Find your perfect housemate, <br /> move faster, stay longer,
                 and travel with confidence.
               </p>
@@ -86,7 +86,7 @@ const Header = () => {
               <div className="flex">
                 <button className="w-full mt-4 flex justify-center items-center bg-blue-600 text-white rounded-lg px-6 py-2 font-semibold hover:bg-blue-700">
                   Sign up
-                  <span className="ml-2">
+                  <span className="ml-2 mt-1">
                     <FaArrowRightLong />
                   </span>
                 </button>
