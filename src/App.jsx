@@ -1,6 +1,7 @@
-import Community from "./Component/Community/Community";
+import Community from "./Component/Community";
 import Header from "./Component/Header/Header";
-import SingleCard from "./Component/SingleCard/SingleCard";
+import SingleCard from "./Component/SingleCard";
+import Traveler from "./Component/Traveler";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Header></Header>
       <SingleCard></SingleCard>
       <Community></Community>
+      <Traveler></Traveler>
     </div>
   );
 };
