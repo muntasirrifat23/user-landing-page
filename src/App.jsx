@@ -1,9 +1,11 @@
 import Header from "./Component/Header/Header";
+import SingleCard from "./Component/SingleCard/SingleCard";
 
 const App = () => {
   return (
-    <div className="mt-0">
+    <div className="bg-slate-100">
       <Header></Header>
+      <SingleCard></SingleCard>
     </div>
   );
 };

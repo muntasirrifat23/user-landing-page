@@ -6,10 +6,10 @@ const Header = () => {
   return (
     <>
       <div
-        className="relative h-full bg-cover bg-center"
+        className="relative bg-cover bg-center h-[900px]"
         style={{ backgroundImage: `url('../../../public/Background.jpeg')` }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div className="absolute inset-0 bg-slate-500 bg-opacity-50"></div>
 
         {/* Navbar */}
         <div className="navbar flex items-center justify-between bg-white bg-opacity-30 backdrop-blur rounded-xl p-4 shadow-md mx-10">
@@ -20,7 +20,7 @@ const Header = () => {
         </div>
 
         {/* Content Section */}
-        <div className="relative flex flex-col lg:flex-row items-center justify-between gap-10 p-8 pt-16 max-w-6xl mx-auto">
+        <div className="relative flex flex-col lg:flex-row items-center justify-between gap-10 p-8 pt-16 max-w-7xl mx-auto">
           {/* Left Text Section */}
           <div className="text-left lg:w-1/2">
             <h1 className="text-6xl font-bold text-white leading-tight">
