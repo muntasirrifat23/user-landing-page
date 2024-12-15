@@ -1,5 +1,6 @@
 import "./Header.css";
 import logo from "../../../public/logo.png";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const Header = () => {
   return (
@@ -77,14 +78,19 @@ const Header = () => {
                 />
               </div>
               <p className="text-sm text-white mt-2 text-center font-semibold">
-                You are already a member{" "}
-                <a href="#" className="text-white underline font-bold">
+                You are already a member
+                <a href="#" className="text-white underline font-semibold ml-2">
                   log in
                 </a>
               </p>
-              <button className="mt-4 bg-blue-600 text-white rounded-lg px-6 py-2 w-full font-semibold hover:bg-blue-700">
-                Sign up
-              </button>
+              <div className="flex">
+                <button className="w-full mt-4 flex justify-center items-center bg-blue-600 text-white rounded-lg px-6 py-2 font-semibold hover:bg-blue-700">
+                  Sign up
+                  <span className="ml-2">
+                    <FaArrowRightLong />
+                  </span>
+                </button>
+              </div>
             </form>
           </div>
         </div>
