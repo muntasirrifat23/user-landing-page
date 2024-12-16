@@ -18,7 +18,7 @@ const Expat = () => {
       <div
         className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('../../public/logo.png')",
+          backgroundImage: "url('https://i.ibb.co.com/4dMJTQ1/logo.png')",
           backgroundSize: "8rem 8rem",
         }}
       >
@@ -31,7 +31,7 @@ const Expat = () => {
         >
           <div className="text-4xl text-blue-500 mb-3">
             <img
-              src="../../public/E1.png"
+              src="https://i.ibb.co.com/71x4YhV/E1.png"
               alt="Flexible"
               className="rounded-lg"
             />
@@ -54,7 +54,7 @@ const Expat = () => {
           >
             <div className="text-4xl text-blue-500 mb-3">
               <img
-                src="../../public/E2.png"
+                src="https://i.ibb.co.com/xzd3Fk1/E2.png"
                 alt="Flexible"
                 className="rounded-lg"
               />
@@ -77,7 +77,7 @@ const Expat = () => {
         >
           <div className="text-4xl text-blue-500 mb-3">
             <img
-              src="../../public/E3.png"
+              src="https://i.ibb.co.com/hKmvCd9/E3.png"
               alt="Flexible"
               className="rounded-lg"
             />
@@ -98,7 +98,11 @@ const Expat = () => {
           }}
         >
           <div className="text-4xl text-blue-500 mb-3">
-            <img src="../../public/E4.png" alt="Woman" className="rounded-lg" />
+            <img
+              src="https://i.ibb.co.com/QpzgM0c/E4.png"
+              alt="Woman"
+              className="rounded-lg"
+            />
           </div>
           <h3 className="text-xl font-semibold text-gray-800 mb-2">
             Women-Only Spaces

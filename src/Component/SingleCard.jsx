@@ -12,7 +12,7 @@ const SingleCard = () => {
       </div>
       {/* Cards 2 */}
       <div>
-        <img src="../../public/s2.png" alt="Travel" className="h-20 w-20" />
+        <img src="https://i.ibb.co.com/0Q1Cw4N/s2.png" alt="Travel" className="h-20 w-20" />
         <h2 className="text-3xl font-semibold">Connect & Travel</h2>
         <p className="text-sm text-slate-600">
           A trusted community of <br />
@@ -21,7 +21,7 @@ const SingleCard = () => {
       </div>
       {/* Cards 3 */}
       <div>
-        <img src="../../public/s3.png" alt="Tribe" className="h-20 w-20" />
+        <img src="https://i.ibb.co.com/stggGGv/s3.png" alt="Tribe" className="h-20 w-20" />
         <h2 className="text-3xl font-semibold">Find Your Tribe</h2>
         <p className="text-sm text-slate-600">
           Find like-minded housemates <br />
