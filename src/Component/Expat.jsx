@@ -29,7 +29,13 @@ const Expat = () => {
             clipPath: "polygon(0 0, 100% 0, 100% 75%, 90% 100%, 0 100%)",
           }}
         >
-          <div className="text-4xl text-blue-500 mb-3">🔑</div>
+          <div className="text-4xl text-blue-500 mb-3">
+            <img
+              src="../../public/E1.png"
+              alt="Flexible"
+              className="rounded-lg"
+            />
+          </div>
           <h3 className="text-xl font-semibold text-gray-800 mb-2">
             Affordable Housing
           </h3>
@@ -46,7 +52,13 @@ const Expat = () => {
               clipPath: "polygon(0 0, 100% 0, 100% 100%, 10% 100%, 0 75%)",
             }}
           >
-            <div className="text-4xl text-blue-500 mb-3">🌍</div>
+            <div className="text-4xl text-blue-500 mb-3">
+              <img
+                src="../../public/E2.png"
+                alt="Flexible"
+                className="rounded-lg"
+              />
+            </div>
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Flexible Options
             </h3>
@@ -63,7 +75,13 @@ const Expat = () => {
             clipPath: "polygon(0 0, 90% 0, 100% 25%, 100% 100%, 0 100%)",
           }}
         >
-          <div className="text-4xl text-blue-500 mb-3">✅</div>
+          <div className="text-4xl text-blue-500 mb-3">
+            <img
+              src="../../public/E3.png"
+              alt="Flexible"
+              className="rounded-lg"
+            />
+          </div>
           <h3 className="text-xl font-semibold text-gray-800 mb-2">
             Verified Profiles
           </h3>
@@ -79,7 +97,9 @@ const Expat = () => {
             clipPath: "polygon(10% 0, 100% 0, 100% 100%, 0 100%, 0 25%)",
           }}
         >
-          <div className="text-4xl text-blue-500 mb-3">🚺</div>
+          <div className="text-4xl text-blue-500 mb-3">
+            <img src="../../public/E4.png" alt="Woman" className="rounded-lg" />
+          </div>
           <h3 className="text-xl font-semibold text-gray-800 mb-2">
             Women-Only Spaces
           </h3>
