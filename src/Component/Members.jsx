@@ -6,7 +6,7 @@ import { HiArrowSmallLeft, HiArrowSmallRight } from "react-icons/hi2";
 
 const Members = () => {
   return (
-    <div className="py-10">
+    <div className="py-10 mt-10">
       {/* Header Part */}
       <div className="flex items-center justify-center">
         <p className="text-center bg-slate-400 w-fit p-1 px-3 rounded-lg transform -rotate-12 mb-5">
