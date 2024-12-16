@@ -13,9 +13,9 @@ const Faq = () => {
       <div className="flex justify-between items-center p-4 bg-white text-black mb-5 rounded-lg">
         <div>
           <div className="flex justify-between items-center">
-              <p className="font-semibold lg:text-xl">
-                What cars do you have in your inventory?
-              </p>
+            <p className="font-semibold lg:text-xl">
+              What cars do you have in your inventory?
+            </p>
           </div>
 
           <p className="text-gray-600 sm:text-sm">
@@ -24,8 +24,7 @@ const Faq = () => {
             tincidunt tempus porta. Vulputate ornare vitae turpis mauris.
           </p>
         </div>
-        <IoRemoveCircleOutline className="items-end -mt-12 text-gray-600 text-xl" />
-
+        <IoRemoveCircleOutline className="items-end -mt-12 text-gray-600 lg:text-xl text-2xl" />
       </div>
 
       <div className="flex justify-between items-center p-4 bg-white text-black mb-5 rounded-lg">

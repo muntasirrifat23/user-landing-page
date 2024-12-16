@@ -9,7 +9,7 @@ const Members = () => {
     <div className="py-10 mt-10">
       {/* Header Part */}
       <div className="flex items-center justify-center">
-        <p className="text-center bg-slate-400 w-fit p-1 px-3 rounded-lg transform -rotate-12 mb-5">
+        <p className="text-center bg-slate-300 w-fit p-1 px-3 rounded-lg transform -rotate-12 mb-5">
           Testimonial
         </p>
       </div>

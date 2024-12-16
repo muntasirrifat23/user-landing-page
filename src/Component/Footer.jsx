@@ -13,11 +13,11 @@ const Footer = () => {
         <div className="lg:flex lg:justify-between mt-20 px-20 ">
           {/* Footer Left */}
           <div>
-            <img src={logo} alt="logo" className="w-48 h-48 rounded-xl" />
+            <img src={logo} alt="logo" className="w-64 h-64 -mx-10 sm:-m-12" />
 
             <p className="text-gray-600 text-lg">
               Scan a Turning Hearts Medallion to learn about and interact <br />
-              with those who have passed on. You can also begin <br />{" "}
+              with those who have passed on. You can also begin <br />
               documenting the legacy you wish to leave behind.
             </p>
             {/* social media */}
