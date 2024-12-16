@@ -8,7 +8,7 @@ const Header = () => {
       id="header"
       className="relative bg-cover bg-center h-[900px] "
       style={{
-        backgroundImage: `url('../../../public/Background.jpeg')`,
+        backgroundImage: `url('https://i.ibb.co/QQkVmFp/Background.jpg')`,  // Using the imagebb link
       }}
     >
       <div className="absolute inset-0 bg-slate-500 bg-opacity-50"></div>
