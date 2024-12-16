@@ -1,6 +1,6 @@
 const Expat = () => {
   return (
-      <div className=" lg:mx-36 px-6 mx-20">
+      <div className=" lg:mx-36 px-6 mx-20 mb-10">
         {/* Heading Part */}
         <div className="flex items-center justify-center ">
           <p className="text-center bg-slate-400 w-fit p-1 px-3 font-semibold rounded-lg transform -rotate-12 mb-5">
@@ -10,7 +10,7 @@ const Expat = () => {
         <h2 className="text-4xl text-center font-bold text-gray-800 mb-2">
           Why Choose Expat Global Girls
         </h2>
-        <p className="text-gray-600 mb-8 text-center">
+        <p className="text-gray-600 mb-8 text-center font-semibold">
           Empowering women to travel with confidence and ease worldwide
         </p>
 
