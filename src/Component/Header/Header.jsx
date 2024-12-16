@@ -6,6 +6,7 @@ const Header = () => {
   return (
     <>
       <div
+        id="header"
         className="relative bg-cover bg-center h-[900px] "
         style={{ backgroundImage: `url('../../../public/Background.jpeg')` }}
       >

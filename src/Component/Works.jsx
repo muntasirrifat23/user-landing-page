@@ -5,7 +5,7 @@ import work4 from "../../public/w4.png";
 
 const Works = () => {
   return (
-    <div className="bg-white p-8">
+    <div className="bg-white py-20 mt-10">
       <div className="text-center">
         <h2 className="text-4xl font-bold text-gray-900 mb-4">How It Works</h2>
         <p className="text-gray-600 mb-8">

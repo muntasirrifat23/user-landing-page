@@ -4,7 +4,7 @@ import logo from "../../public/logo.png";
 const Community = () => {
   return (
     <div className="lg:flex lg:gap-12 sm:ml-20 sm:items-center items-center mt-5 lg:mx-40 sm:mx-10">
-      {/* Image Section */}
+      {/* Left */}
       <div className="bg-white rounded-lg lg:h-[430px] lg:w-[500px] sm:h-[400px] sm:w-[500px] flex items-center justify-center">
         <img
           src={logo}
@@ -13,9 +13,9 @@ const Community = () => {
         />
       </div>
 
-      {/* Text Section */}
+      {/* Right */}
       <div className="sm:ml-2 lg:mt-0 sm:mt-5 lg:h-[500px] lg:w-[500px] sm:h-[400px] sm:w-[500px] flex flex-col justify-center">
-        <hr className="border-t-4 rounded-lg border-blue-600 w-8 mr-4" />
+        <hr className="border-t-4 rounded-lg border-blue-600 w-12 mr-4" />
 
         <h2 className="font-semibold text-5xl">
           Your Community for <br />
