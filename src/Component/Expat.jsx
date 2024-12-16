@@ -15,7 +15,13 @@ const Expat = () => {
       </p>
 
       {/* Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div
+        className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-center bg-no-repeat"
+        style={{
+          backgroundImage: "url('../../public/logo.png')",
+          backgroundSize: "8rem 8rem",
+        }}
+      >
         {/* Left Top Card */}
         <div
           className="p-8 shadow border border-blue-400 rounded-xl"
@@ -32,7 +38,6 @@ const Expat = () => {
             fellow members.
           </p>
         </div>
-
         {/* Right Top Card */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div
@@ -51,7 +56,6 @@ const Expat = () => {
             </p>
           </div>
         </div>
-
         {/* Left Bottom Card  */}
         <div
           className="p-8 border border-blue-400 rounded-xl shadow"
@@ -68,7 +72,6 @@ const Expat = () => {
             and peace of mind.
           </p>
         </div>
-
         {/* Right Bottom Card  */}
         <div
           className="p-8 border border-blue-400 rounded-xl shadow"
