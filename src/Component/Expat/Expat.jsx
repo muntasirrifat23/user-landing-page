@@ -1,7 +1,6 @@
 const Expat = () => {
   return (
-    <section className="py-12">
-      <div className=" lg:mx-36 px-6">
+      <div className=" lg:mx-36 px-6 mx-20">
         {/* Heading Part */}
         <div className="flex items-center justify-center ">
           <p className="text-center bg-slate-400 w-fit p-1 px-3 font-semibold rounded-lg transform -rotate-12 mb-5">
@@ -88,7 +87,6 @@ const Expat = () => {
           </div>
         </div>
       </div>
-    </section>
   );
 };
 

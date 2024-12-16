@@ -3,7 +3,7 @@ import logo from "../../public/logo.png";
 
 const Community = () => {
   return (
-    <div className="lg:flex lg:gap-12 sm:ml-32 sm:items-center items-center mt-5 lg:mx-40 sm:mx-10">
+    <div className="lg:flex lg:gap-12 sm:ml-20 sm:items-center items-center mt-5 lg:mx-40 sm:mx-10">
       {/* Image Section */}
       <div className="bg-white rounded-lg lg:h-[430px] lg:w-[500px] sm:h-[400px] sm:w-[500px] flex items-center justify-center">
         <img
