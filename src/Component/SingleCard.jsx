@@ -1,6 +1,6 @@
 const SingleCard = () => {
   return (
-    <div className="bg-white text-black relative mt-[-30px] lg:mt-[-50px] mx-20 p-8 lg:mx-40 grid lg:grid-cols-3 rounded-xl lg:gap-40 gap-8">
+    <div className="bg-white text-black mb-20 relative mt-[-30px] lg:mt-[-50px] mx-20 p-8 lg:mx-40 grid lg:grid-cols-3 rounded-xl lg:gap-40 gap-8">
       {/* Cards 1 */}
       <div>
         <img src="../../public/s1.png" alt="150+" className="h-20 w-20" />
