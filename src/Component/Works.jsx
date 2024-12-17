@@ -56,6 +56,40 @@ const Works = () => {
           </div>
         </div>
 
+        {/* Middle Section */}
+        <div className="flex flex-col lg:mt-10 items-center">
+          {/* Step 1 */}
+          <div className="relative flex flex-col items-center">
+            <div className="w-12 h-12 rounded-full border-2 border-blue-500 flex items-center justify-center font-bold text-lg">
+              1
+            </div>
+            <div className="h-16 lg:h-28 border-l-4 border-dashed border-blue-500"></div>
+          </div>
+
+          {/* Step 2 */}
+          <div className="relative flex flex-col items-center">
+            <div className="w-12 h-12 rounded-full border-2 border-blue-500 flex items-center justify-center font-bold text-lg">
+              2
+            </div>
+            <div className="h-16 lg:h-28 border-l-4 border-dashed border-blue-500"></div>
+          </div>
+
+          {/* Step 3 */}
+          <div className="relative flex flex-col items-center">
+            <div className="w-12 h-12 rounded-full border-2 border-blue-500 flex items-center justify-center font-bold text-lg">
+              3
+            </div>
+            <div className="h-16 lg:h-28 border-l-4 border-dashed border-blue-500"></div>
+          </div>
+
+          {/* Step 4 */}
+          <div className="relative flex flex-col items-center">
+            <div className="w-12 h-12 rounded-full border-2 border-blue-500  flex items-center justify-center font-bold text-lg">
+              4
+            </div>
+          </div>
+        </div>
+
         {/* Right Section*/}
         <div className="flex flex-col justify-between items-center md:items-start h-full lg:w-1/2">
           {/* Step 2 */}
